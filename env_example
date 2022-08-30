@@ -1,0 +1,3 @@
+PORT=3001
+APIKEY="your key"
+SO="your So" //MAC,WINLIN
