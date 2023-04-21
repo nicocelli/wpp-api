@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/d1cdb8e2-0084-4fe1-b01c-d61a483c6b9f/resourceGroups/qualifiquei-whatsapp-api/providers/Microsoft.Web/sites/qualifiquei-whatsapp-api",
+    "appService.deploySubpath": "."
+}
