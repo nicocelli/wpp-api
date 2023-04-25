@@ -5,13 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Debug",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}/src/server.js"
-        }
+        },
+        {
+            "type": "docker",
+            "name": "Docker Node.js Launch",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",            
+          }
     ]
 }
